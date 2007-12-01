@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 41a3c8839c805eeb9e2e011c27a5121e2b827130 Build.PL
+SHA1 b1f9fe7a177b944e8cf315351a0fd9d1c02da618 Changes
+SHA1 cfe311e59f545d5233e92872c17e31a606529f60 MANIFEST
+SHA1 e05977767bdd1b8e4fe5ae3c3f81904e973d18e3 META.yml
+SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
+SHA1 c940496daf66f64a6eca453bb5d3f00c72c788d4 README
+SHA1 0fba5da612af38d75c02a2442dbe58feaf99794a bin/mibProxy
+SHA1 fe11a9605538d67defc450f5c3d86e328b05febf etc/mibProxy.conf
+SHA1 a6585f757e243a2f25b652d83318137f62d96a09 lib/SNMP/MibProxy.pm
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 log/mibProxy.log
+SHA1 de14ebe606383171555cda72dace8213924a32d5 t/00-load.t
+SHA1 ab0a163239b0a9014d5226839f17a7ae07c21d9a t/01-load.t
+SHA1 6dc5686b81d9a44f774891fcaaf1a3bd7ff7191e t/boilerplate.t
+SHA1 afc41cf24d367295a4caf0927b07fd657557d265 t/mibProxy.t
+SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/pod-coverage.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFHUY+tcV+oKB/QqikRAgkhAJ0fIpyyRbIWC71ERb5FH6k4vZMvXwCgmHyX
+euvw2H5+Y9hW8jJayfpvCSs=
+=nnCo
+-----END PGP SIGNATURE-----
