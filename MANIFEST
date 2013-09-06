@@ -14,4 +14,5 @@ t/mibProxy.t
 t/pod-coverage.t
 t/pod.t
 log/mibProxy.log
+META.json
 SIGNATURE    Added here by Module::Build

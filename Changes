@@ -1,6 +1,9 @@
-$Id: Changes 771 2007-12-01 16:52:46Z nito $
+$Id: Changes 20429 2013-05-30 12:52:03Z rporres $
 
 Revision history for SNMP-MibProxy
+
+1.21422  30/05/2013
+	 Added configure_requires section in Build.PL as Module::Build is going to be deprecated from core. (Rafael Porres)
 
 1.0572  1/12/2007
         Renamed module from NetSNMP-MibProxy to SNMP-MibProxy

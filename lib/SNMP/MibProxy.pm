@@ -10,13 +10,13 @@ SNMP::MibProxy - Simple pass_persist script for Net-SNMP
 
 =head1 VERSION
 
-Version $Revision: 771 $
+Version $Revision: 21422 $
 
 =cut
 
 # Version update....
-$SNMP::MibProxy::VERSION = sprintf "1.%04d", q$Revision: 771 $ =~ /(\d+)/g;
-
+$SNMP::MibProxy::VERSION = sprintf "1.%04d", q$Revision: 21422 $ =~ /(\d+)/g;
+ 
 =head1 SYNOPSIS
 
 The main script is called B<mibProxy>. Please check the documentation
@@ -66,7 +66,7 @@ L<http://search.cpan.org/dist/SNMP-MibProxy>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2007 Nito Martinez, all rights reserved.
+Copyright 2007 by Qindel Formacion y Servicios SL, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

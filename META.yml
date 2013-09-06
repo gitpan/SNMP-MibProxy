@@ -1,30 +1,35 @@
 ---
-name: SNMP-MibProxy
-version: 1.0771
+abstract: 'Simple pass_persist script for Net-SNMP'
 author:
   - 'Nito Martinez <nito@qindel.es>'
-abstract: Simple pass_persist script for Net-SNMP
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  Config::Properties::Simple: 0.14
-  File::Path: 1.05
+build_requires:
   File::Temp: 0
   IPC::Open2: 0
-  Log::Dispatch::FileRotate: 0
-  Log::Log4perl: 0
-  Pod::Usage: 0
-  Proc::ProcessTable: 0
-  SNMP: 0
   Test::More: 0
   Test::Pod: 1.14
   Test::Pod::Coverage: 1.04
+configure_requires:
+  Module::Build: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: SNMP-MibProxy
 provides:
   SNMP::MibProxy:
     file: lib/SNMP/MibProxy.pm
-    version: 1.0771
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    version: 1.21422
+requires:
+  Config::Properties: 0
+  Config::Properties::Simple: 0.14
+  Data::Dumper: 0
+  Getopt::Std: 0
+  Log::Dispatch::FileRotate: 0
+  Log::Log4perl: 0
+  Pod::Usage: 0
+  SNMP: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 1.21422
